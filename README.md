@@ -11,8 +11,8 @@
 
 Принцип работы системы умного дома grib tehcnology на основе API Telegram.
 
-1. Пользователь создаёт своего бота в Telegram при помощи BotFather ([Создание бота в Telegram](https://github.com/grib-technology/grib_myewwt_clock#bot)).
-2. Получив токен созданного бота, пользователь сообщает [розетке](https://github.com/grib-technology/grib_socket_and_relay), настроенной в режим шлюза, токен бота а также SSID и пароль Wi-Fi сети ([Настройка](https://github.com/grib-technology/grib_socket_and_relay#socket_setup)).
+1. Пользователь создаёт своего бота в Telegram при помощи BotFather ([Создание бота в Telegram](https://github.com/gleb-zhukov/myewwt_clock#bot)).
+2. Получив токен созданного бота, пользователь сообщает [розетке](https://github.com/gleb-zhukov/smart_socket_and_relay), настроенной в режим шлюза, токен бота а также SSID и пароль Wi-Fi сети ([Настройка](https://github.com/gleb-zhukov/smart_socket_and_relay#socket_setup)).
 3. Отправляя сообщение боту, оно обрабатывается шлюзом.
 4. Если в систему добавлены дополнительные устройства — умные розетки, реле и т.д., команда от бота обрабатывается сначала шлюзом, затем передаётся подключенным в систему устройствам с применением технологии [ESP-NOW](https://www.espressif.com/en/products/software/esp-now/overview).
 
